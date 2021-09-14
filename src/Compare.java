@@ -7,14 +7,10 @@ public class Compare {
         else {
             System.out.println("Number Two is larger, number One is smaller");
         }
-        if(numberOne == numberTwo)
-        {
+        if (numberOne == numberTwo) {
             System.out.println("Numbers are equal");
-        }
-        else
-        {
+        } else {
             System.out.println("Numbers are not equal");
-
         }
         short number1 = -5;
         short number2 = 10;
