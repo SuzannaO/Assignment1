@@ -13,7 +13,7 @@ public class DaysAlternative {
             System.out.println("The number of days is 30");
         if (year % 4 != 0 && month == 2)
             System.out.println("The number of days is 28");
-        if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+        if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0) && month == 2)
             System.out.println("The number of days is 29");
 
 
