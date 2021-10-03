@@ -9,10 +9,9 @@ public class Salary {
             System.out.println("The meaning of working hours is invalid");
         if (workingHoursInDay > 0 && workingHoursInDay <= 8)
             System.out.println("The salary is " + workingHoursInDay * 10 + "Euro");
-    else {
+    else
         if (workingHoursInDay >8 && workingHoursInDay <24)
             System.out.println("The salary is " + (80 + (workingHoursInDay-8)*15) + "Euro");
-    }
 
     }
 }
