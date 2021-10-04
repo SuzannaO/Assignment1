@@ -12,6 +12,7 @@ public class MilesPerHour {
         if (kilometresPerHour < 0) {
             return -1;
         } else {
+            System.out.println("Miles per hour");
             return kilometresPerHour * 0.621;
         }
     }
